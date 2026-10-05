@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+
+
+.box-grid {
+min-width: 50px;
+width:200px;
+height: 270px;
+}
+
+.box-grid:hover {
+
+    background-color: #2cd1ff69;
+    border: 1px solid #00b3ff2a;
+    box-shadow: 0px 0px 10px rgba(243, 239, 239, 0.645);
+    transition: 0.1s;
+    cursor: pointer;
+}
+

@@ -1,0 +1,1 @@
+Aqui ficam componentes de interface que podem ser utilizados em várias partes do site.

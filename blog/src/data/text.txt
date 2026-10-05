@@ -1,0 +1,1 @@
+Contém dados locais utilizados durante o desenvolvimento.
