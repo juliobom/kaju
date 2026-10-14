@@ -1,12 +1,12 @@
 import '../../style/global.css'
-import { boxanim } from './boxanim.js'
+
 
 const pag = document.getElementById('app')
 
 pag.innerHTML = `
 
 <header class="z-50 px-5 border-b-1 border-b-[#2cd3ff]/25">
-  <div class="flex flex-row items-center justify-between px-1.5 justify-right h-10 pl-2 gap-5 py-1 mb-2">
+  <div class="flex flex-row items-center justify-between px-1.5 h-10 pl-2 gap-5 py-1 mb-2">
 
     <div>
       <img src="../../icons/rocket2.svg" alt="" class="w-10 h-10 rounded-sm">    
@@ -30,34 +30,60 @@ pag.innerHTML = `
   </div>
 
 
-  <div class="flex aling-items items-center pr-8" ><img src="../../images/julio.jpeg" alt="" class="w-50 h-50 rounded-full"></div>
+  <div class="flex aling-items items-center md:pr-8 sm:pr-8" ><img src="../../images/julio.jpeg" alt="" class="w-50 h-50 rounded-full"></div>
 
 
 </section>
-<section class="border-2 border-[#2cd3ff]/50 w-full h-fit p-5 mb-2 rounded-sm ">
-  <div class="grid grid-flow-col gap-2 w-full h-full">
 
-    <div class="box-grid flex flex-col mask-origin-border bg-white/90 rounded-xl max-w-3/2  h-70  snap-start">
+<section>
+  <h1class=" " >
+    Meus Projetos
+  </h1>
+</section>
+
+
+
+<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-between border-2 border-[#2cd3ff]/50 w-full h-fit gap-5  p-5 mb-2 mt- rounded-sm">
+
+
+    <div class="box-grid flex flex-col mask-origin-border bg-white/90 rounded-xl min-w-0 max-w-3/2  h-70  snap-start">
       <img src="../../images/fuji.jpg" alt="" class="rounded-xl w-full h-full">
     </div>
 
-    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl max-w-3/2 h-70">09</div>
+    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl min-w-0 max-w-3/2 h-70">09</div>
 
-    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl max-w-3/2 h-70">09</div>
+    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl min-w-0 max-w-3/2 h-70">09</div>
     
-    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl max-w-3/2 h-70">09</div>
+    <div class="box-grid bg-[#2cd3ff]/65 rounded-xl min-w-0 max-w-3/2 h-70 ">09</div>
 
-</div>
 </section>
-<section class="mt-5 px-5">                                                       <!-- " Seçao de Skill's em horizontal " -->
-  <div class="grid grid-flow-col px-2 gap-5 snap-x overflow-x-auto w-full h-20">
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20 snap-start"></div>
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20"></div>
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20"></div>
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20"></div>
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20"></div>
-    <div class="bg-[#2cd3ff]/65 rounded-xl w-30 h-20"></div>
+
+
+<!-- " Seçao de Skill's em horizontal " -->
+
+<section class="mt-5 px-5">                                                       
+  <div class="grid grid-flow-col px-2 py-2 gap-5 snap-x overflow-x-auto w-full h-30 justify-between">
+    
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse snap-start"> 
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="opacity-75 w-full h-full"/>
     </div>
+    
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse ">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" class="opacity-75 w-full h-full"/>          
+    </div>
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse ">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="opacity-80 w-full h-full " />
+    </div>
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse ">
+
+    </div>
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse ">
+
+    </div>
+    <div class="mini-grid bg-white/75 rounded-xl min-w-0 w-30 max-w-30 h-20 py-2 hover:animate-pulse ">
+
+    </div>
+  </div>
 </section>
 
 <footer>
@@ -66,8 +92,8 @@ pag.innerHTML = `
 
 `
 
-const caixa = pag.querySelector('.box-grid')
-caixa.addEventListener('mouseenter', boxanim)
+
+
 
 
 
