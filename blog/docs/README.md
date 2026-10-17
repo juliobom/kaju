@@ -19,3 +19,4 @@
 
     A estrutura e suas funcionalidades serão abordadas especificamente em ARCHITECTURE.md, em ROADMAP.md teremos ideias futuras e intenções de projetos.
 
+    devicons: https://github.com/devicons/devicon/tree/master/icons

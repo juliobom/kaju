@@ -22,8 +22,7 @@
 
 .box-grid:hover {
 
-    background-color: #2cd1ff69;
-    box-shadow: 0px 0px 10px rgba(243, 239, 239, 0.645);
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.645);
     transition: 0.1s;
     cursor: pointer;
 }
